@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pomodoro</title>
+    <link rel="stylesheet" href="pomodoro.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="relojSombra">
+      <div id="relojColor">
+        <div id="relojCentro">
+          <span id="minutos">15:00</span>
+          <div id="info">
+            <a id="texto">START</a>
+            <span id="openModal"
+              ><img
+                src="PROJECT-FILES/FILES/STARTER/images/gear.svg"
+                alt=""
+                srcset=""
+            /></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal">
+      <div id="modalContent">
+        <form action="">
+          <span>Inserte la cantidad de minutos</span>
+          <input id="inputMinutos" type="number" min='1' placeholder="Minutos" />
+
+          <div id="buttonContainer">
+            <button id="closeModal" href="">Atras</button>
+            <button id="guardarModal" type="submit">Guardar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="pomodoro.js"></script>
+  </body>
+</html>
