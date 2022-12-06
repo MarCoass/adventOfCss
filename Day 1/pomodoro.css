@@ -18,6 +18,7 @@ body {
   width: 500px;
   height: 500px;
   background-color: #9d0000;
+  
   border-radius: 50%;
   justify-content: center;
   display: flex;
@@ -40,7 +41,7 @@ body {
   justify-content: center;
 }
 
-#minutos {
+#timer {
   font-family: "Bebas Neue", cursive;
   font-style: normal;
   font-weight: 400;
@@ -120,4 +121,8 @@ body {
 }
 #guardarModal {
   background-color: #00aa51;
+}
+
+#stop {
+  display: none;
 }
